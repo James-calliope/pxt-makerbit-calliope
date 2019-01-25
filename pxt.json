@@ -4,7 +4,10 @@
     "description": "The MakerBit connects to a wide variety of sensors, actuators, and other components.",
     "license": "MIT",
     "dependencies": {
-        "core": "*"
+        "core": "*",
+        "MakerBit-Touch": "github:1010technologies/pxt-makerbit-touch#v0.0.5",
+        "MakerBit-Motor": "github:1010technologies/pxt-makerbit-motor#v0.0.3",
+        "MakerBit-MP3": "github:1010technologies/pxt-makerbit-mp3#v0.0.2"
     },
     "files": [
         "infrared.ts",
