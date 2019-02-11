@@ -1,12 +1,12 @@
 {
     "name": "MakerBit",
-    "version": "0.18.4",
+    "version": "0.18.5",
     "description": "The MakerBit connects to a wide variety of sensors, actuators, and other components.",
     "license": "MIT",
     "dependencies": {
         "core": "*",
         "MakerBit-Touch": "github:MKleinSB/pxt-makerbit-touch#v0.0.5",
-        "MakerBit-Motor": "github:MKleinSB/pxt-makerbit-motor-calliope#v0.0.6",
+        "MakerBit-Motor": "github:MKleinSB/pxt-makerbit-motor-calliope#v0.0.7",
         "MakerBit-MP3": "github:MKleinSB/pxt-makerbit-mp3#v0.0.2"
     },
     "files": [
