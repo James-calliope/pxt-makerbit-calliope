@@ -11,11 +11,11 @@ let level: number = makerbit.level(PinLevel.High);
  * Ultrasonic tests
  */
 
-makerbit.connectUltrasonic(DigitalPin.P5, DigitalPin.P8);
-
-const distance: number = makerbit.getUltrasonicDistance(DistanceUnit.CM);
-
-const isNear = makerbit.isUltrasonicDistanceLessThan(10, DistanceUnit.CM);
+const distance: number = makerbit.getUltrasonicDistance(
+    DistanceUnit.CM,
+    MakerBitPin.P5,
+    MakerBitPin.P8
+);
 
 /**
  * LCD tests
@@ -34,10 +34,10 @@ const isLcdConnected: boolean = makerbit.isLcdConnected();
  */
 
 makerbit.connectInfrared(MakerBitPin.A0);
-makerbit.onIrButtonPressed(IrButton.Ok, () => {});
-makerbit.onIrButtonReleased(IrButton.Up, () => {});
+makerbit.onIrButtonPressed(IrButton.Ok, () => { });
+makerbit.onIrButtonReleased(IrButton.Up, () => { });
 makerbit.isIrButtonPressed(IrButton.Number_0);
-makerbit.onIrCommandReceived(() => {});
-makerbit.onIrCommandExpired(() => {});
+makerbit.onIrCommandReceived(() => { });
+makerbit.onIrCommandExpired(() => { });
 const command: number = makerbit.irCommandCode();
 const button: number = makerbit.irButton(IrButton.Number_9);
