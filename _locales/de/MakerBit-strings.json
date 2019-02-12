@@ -82,6 +82,6 @@
   "{id:category}Makerbit": "Makerbit",
   "{id:subcategory}IR Remote": "IR Empfänger",
   "{id:subcategory}LCD": "LCD",
-  "{id:subcategory}Motors": "Motoren",
+  "{id:subcategory}MBMotors": "Motoren",
   "{id:subcategory}Ultrasonic": "Ultraschall"
 }
