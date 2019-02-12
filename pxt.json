@@ -6,14 +6,14 @@
     "dependencies": {
         "core": "*",
         "MakerBit-Touch": "github:MKleinSB/pxt-makerbit-touch#v0.0.5",
-        "MakerBit-Motor": "github:MKleinSB/pxt-makerbit-motor-calliope#v0.0.7",
-        "MakerBit-Ultrasonic": "github:MKleinSB/pxt-makerbit-ultrasonic-calliope#v0.0.4"
+        "MakerBit-Motor": "github:MKleinSB/pxt-makerbit-motor-calliope#v0.0.7"
     },
     "files": [
         "infrared.ts",
         "lcd.ts",
         "namespace.ts",
         "pins.ts",
+        "ultrasonic.ts",
         "README.md",
         "_locales/de/MakerBit-strings.json"
     ],
