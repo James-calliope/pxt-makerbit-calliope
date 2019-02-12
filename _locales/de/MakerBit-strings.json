@@ -61,8 +61,6 @@
   "makerbit.clearLcd|block": "lösche LCD",
   "makerbit.connectInfrared|block": "verbinde IR Empfänger an %pin",
   "makerbit.connectLcd|block": "verbinde LCD an I2C Adresse %i2cAddress",
-  "DistanceUnit.CM|block": "cm",
-  "DistanceUnit.INCH|block": "inch",
   "makerbit.connectUltrasonic|block": "verbinde Ultraschall sensor | mit Trig an %trig | und Echo an %echo",
   "makerbit.getUltrasonicDistance|block": "Ultraschalldistanz in %unit",
   "makerbit.isUltrasonicDistanceLessThan|block": "Ultraschalldistanz ist weniger als |%distance|%unit",
