@@ -25,8 +25,8 @@ namespace makerbit {
 
     /**
      * Configures the ultrasonic sensor and measures continuously in the background.
-     * @param trig pin connected to trig, eg: MakerBitPin.P5
-     * @param echo pin connected to echo, eg: MakerBitPin.P8
+     * @param trig pin connected to trig, eg: DigitalPin.P5
+     * @param echo pin connected to echo, eg: DigitalPin.P8
      */
     //% subcategory="Ultrasonic"
     //% blockId="makerbit_ultrasonic_connect"
@@ -38,7 +38,7 @@ namespace makerbit {
     //% echo.fieldOptions.columns=4
     //% echo.fieldOptions.tooltips="false"
     //% weight=80
-    export function connectUltrasonic(trig: MakerBitPin, echo: MakerBitPin): void {
+    export function connectUltrasonic(trig: DigitalPin, echo: DigitalPin): void {
         if (ultrasonicDevice) {
             return;
         }
