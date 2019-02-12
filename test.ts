@@ -8,16 +8,6 @@ makerbit.setAnalogPin(5, 1023);
 let level: number = makerbit.level(PinLevel.High);
 
 /**
- * Ultrasonic tests
- */
-
-const distance: number = makerbit.getUltrasonicDistance(
-    DistanceUnit.CM,
-    MakerBitPin.P5,
-    MakerBitPin.P8
-);
-
-/**
  * LCD tests
  */
 
