@@ -1,6 +1,6 @@
 # MakerBit
 
-[![Build Status](https://travis-ci.org/1010Technologies/pxt-makerbit.svg?branch=master)](https://travis-ci.org/1010Technologies/pxt-makerbit)
+[![Build Status](https://travis-ci.org/MKleinSB/pxt-makerbit-calliope.svg?branch=master)](https://travis-ci.org/MKleinSB/pxt-makerbit-calliope)
 
 The MakerBit connects to the BBC micro:bit to provide easy connections to a wide variety of sensors, actuators and other components. This is a package for Microsoft Makecode.
 
