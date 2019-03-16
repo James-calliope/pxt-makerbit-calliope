@@ -1,6 +1,6 @@
 # MakerBit
 
-[![Build Status](https://travis-ci.org/MKleinSB/pxt-makerbit-calliope.svg?branch=master)](https://travis-ci.org/MKleinSB/pxt-makerbit-calliope)
+[![Build Status](https://travis-ci.org/MKleinSB/pxt-bc95.svg?branch=master)](https://travis-ci.org/MKleinSB/pxt-bc95)
 
 The MakerBit connects to the BBC micro:bit or Calliope Mini with Callio:bit M to provide easy connections to a wide variety of sensors, actuators and other components. This is a package for Microsoft Makecode.
 
