@@ -1,4 +1,4 @@
-# MakerBit
+# MakerBit for Calliope Mini
 
 [![Build Status](https://travis-ci.org/MKleinSB/pxt-makerbit-calliope.svg?branch=master)](https://travis-ci.org/MKleinSB/pxt-makerbit-calliope)
 
