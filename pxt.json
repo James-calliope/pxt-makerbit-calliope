@@ -1,12 +1,12 @@
 {
     "name": "MakerBit",
-    "version": "0.18.10",
+    "version": "0.18.11",
     "description": "The MakerBit connects to a wide variety of sensors, actuators, and other components.",
     "license": "MIT",
     "dependencies": {
         "core": "*",
         "MakerBit-Touch": "github:MKleinSB/pxt-makerbit-touch#v0.0.5",
-        "MakerBit-Motor": "github:MKleinSB/pxt-makerbit-motor-calliope#v0.0.7"
+        "MakerBit-Motor": "github:MKleinSB/pxt-makerbit-motor-calliope#v0.0.8"
     },
     "files": [
         "infrared.ts",
