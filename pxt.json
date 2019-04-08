@@ -6,7 +6,7 @@
     "dependencies": {
         "core": "*",
         "MakerBit-Touch": "github:MKleinSB/pxt-makerbit-touch#v0.0.5",
-        "MakerBit-Motor": "github:MKleinSB/pxt-makerbit-motor-calliope#v0.0.7"
+        "MakerBit-Motor-Calliope": "github:mkleinsb/pxt-makerbit-motor-calliope#v0.0.12"
     },
     "files": [
         "infrared.ts",
